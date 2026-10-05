@@ -1,8 +1,8 @@
 # Tugas Modul 4 - Praktikum Laravel
 
 ## Identitas
-- **Nama:** [Isi Nama Kamu]
-- **NIM:** [Isi NIM Kamu]
+- **Nama:** Muhammad Idhafi Ramadhan
+- **NIM:** C050425010
 
 ---
 
