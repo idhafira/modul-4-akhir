@@ -1,0 +1,8 @@
+1. Salin seluruh isi folder ini ke root proyek Laravel Anda
+   (routes/web.php, DatabaseSeeder.php, dan file lama bernama sama akan tertimpa).
+2. HAPUS migration lama yang bentrok (mis. create_mahasiswas_table / create_matakuliahs_table
+   dari versi sebelumnya atau dari modul lama) agar tidak ada tabel ganda.
+3. php artisan migrate:fresh --seed     (semua tabel direset lalu diisi data dummy)
+4. php artisan serve
+5. php artisan route:list  -> screenshot untuk laporan
+Catatan: seeder mahasiswa memakai fake('id_ID') (Faker). Faker sudah ada di dev-dependencies Laravel.
